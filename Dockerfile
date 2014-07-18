@@ -4,7 +4,6 @@ MAINTAINER CenturylinkLabs <ctl-labs-futuretech@centurylinklabs.com>
 
 ADD dbsetup.sh /app/setup/
 RUN chmod +x /app/setup/dbsetup.sh
-RUN /app/setup/dbsetup.sh
 
-CMD ["app:start"]
+CMD ["/app/setup/dbsetup.sh"]
 
