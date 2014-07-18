@@ -1,4 +1,4 @@
-FROM sameersbn/gitlab:7.0.0
+FROM sameersbn/gitlab:latest
 
 MAINTAINER CenturylinkLabs <ctl-labs-futuretech@centurylinklabs.com>
 
