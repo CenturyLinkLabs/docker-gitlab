@@ -1,5 +1,6 @@
 #!/bin/bash
-pkill supervisord
+kill $(ps aux | grep '[s]upervisord' | awk '{print $2}')
 /app/init app:rake gitlab:setup force=yes
-pkill supervisord
+kill $(ps aux | grep '[s]upervisord' | awk '{print $2}')
 /app/init app:start
+
