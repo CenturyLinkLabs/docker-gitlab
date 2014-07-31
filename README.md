@@ -11,4 +11,4 @@ __Note__ : See the readme on `sameersbn / gitlab` for the detailed instructions.
 
 Example usage:
 
-`docker run --rm --name GITLAB --link DB:mysql --link redis:redisio -p 10080:80 -p 10022:22 -e "DB_USER=bob" -e "DB_PASS=pass@word" -e "DB_NAME=gitlab" -e "GITLAB_PORT=10080" -e "GITLAB_SSH_PORT=10022" centurylinklabs/docker-gitlab`
+`docker run --rm --name GITLAB --link DB:mysql --link redis:redisio -p 10080:80 -p 10022:22 -e "DB_USER=bob" -e "DB_PASS=pass@word" -e "DB_NAME=gitlab" -e "GITLAB_PORT=10080" -e "GITLAB_SSH_PORT=10022" centurylink/docker-gitlab`
