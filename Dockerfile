@@ -1,4 +1,4 @@
-FROM sameersbn/gitlab:7.0.0
+FROM sameersbn/gitlab:7.1.1
 
 MAINTAINER Centurylink
 
