@@ -1,5 +1,6 @@
 GitLab for multiple container linkage
 =============
+[![](https://badge.imagelayers.io/centurylink/gitlab.svg)](https://imagelayers.io/?images=centurylink/gitlab:latest 'Get your own badge on imagelayers.io')
 
 This image uses the image from `sameersbn / gitlab` but adds the database setup as a script and then running of the app itself as a command. This is useful when using the linking approach of using the DB and redis as separate containers and avoids doing the two docker run commands.
 
