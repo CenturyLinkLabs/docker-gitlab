@@ -1,3 +1,7 @@
+## NOTE
+
+This repo is no longer being maintained. Users are welcome to fork it, but we make no warranty of its functionality.
+
 GitLab for multiple container linkage
 =============
 [![](https://badge.imagelayers.io/centurylink/gitlab.svg)](https://imagelayers.io/?images=centurylink/gitlab:latest 'Get your own badge on imagelayers.io')
